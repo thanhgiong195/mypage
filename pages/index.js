@@ -26,9 +26,9 @@ const Home = () => (
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            ThanhGiong 
+            ThanhGiong
           </Heading>
-          <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+          <p>Development</p>
         </Box>
         <Box
           flexShrink={0}
@@ -54,12 +54,11 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          ThanhGiong is a freelance and a full-stack developer based in HN with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called Inkdrop.
+          ThanhGiong is a freelance and a full-stack developer based in Hà Nội
+          with a passion for building digital services/stuff he wants. He has a
+          knack for all things launching products, from planning and designing
+          all the way to solving real-life problems with code. When not online,
+          he loves hanging out with his camera.
         </Paragraph>
       </Section>
 
@@ -77,9 +76,7 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           I ♥
         </Heading>
-        <Paragraph>
-          Art, Music, Drawing, Photography, Leica, Machine Learning
-        </Paragraph>
+        <Paragraph>Coding, Music, Photography, Machine Learning</Paragraph>
       </Section>
     </Container>
   </Layout>
