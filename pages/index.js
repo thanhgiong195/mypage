@@ -54,7 +54,7 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          ThanhGiong is a freelance and a full-stack developer based in Hà Nội
+          ThanhGiong is a freelance and a full-stack developer based in Ha Noi
           with a passion for building digital services/stuff he wants. He has a
           knack for all things launching products, from planning and designing
           all the way to solving real-life problems with code. When not online,
