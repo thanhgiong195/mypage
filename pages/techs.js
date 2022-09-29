@@ -10,11 +10,11 @@ import thumbFinancialGoal from '../public/images/contents/blog-financial-goal.pn
 import thumbHowToPriceYourself from '../public/images/contents/blog-how-to-price-yourself.jpg'
 import thumb50xFaster from '../public/images/contents/youtube-50x-faster.jpg'
 
-const Posts = () => (
-  <Layout title="Posts">
+const Techs = () => (
+  <Layout title="Techs">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        Popular Posts
+        Techs
       </Heading>
 
       <Section delay={0.1}>
@@ -65,4 +65,4 @@ const Posts = () => (
   </Layout>
 )
 
-export default Posts
+export default Techs

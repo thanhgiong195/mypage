@@ -54,11 +54,11 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          ThanhGiong is a freelance and a full-stack developer based in Ha Noi
-          with a passion for building digital services/stuff he wants. He has a
-          knack for all things launching products, from planning and designing
-          all the way to solving real-life problems with code. When not online,
-          he loves hanging out with his camera.
+          He is a freelance and a full-stack developer based in Ha Noi with a
+          passion for building digital services/stuff he wants. He has a knack
+          for all things launching products, from planning and designing all the
+          way to solving real-life problems with code. When not online, he loves
+          hanging out with his camera.
         </Paragraph>
       </Section>
 
@@ -74,9 +74,43 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
+          Technologies
+        </Heading>
+        <Paragraph>
+          ReactJs, VueJs, NodeJs, ExpressJs, PHP, Laravel, HTML, SCSS, AWS
+        </Paragraph>
+      </Section>
+
+      <Section delay={0.4}>
+        <Heading as="h3" variant="section-title">
           I ♥
         </Heading>
         <Paragraph>Coding, Music, Photography, Machine Learning</Paragraph>
+      </Section>
+
+      <Section delay={0.5}>
+        <Heading as="h3" variant="section-title">
+          Contact
+        </Heading>
+        <BioSection>
+          <BioYear>
+            <a href="https://fb.com/giongbt" target="_blank" rel="noreferrer">
+              Facebook
+            </a>
+          </BioYear>
+          <BioYear>
+            <a
+              href="https://www.linkedin.com/in/thanh-giong-700045130/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Linkedin
+            </a>
+          </BioYear>
+          <BioYear>
+            <a href="mailto:giongbt@gmail.com">Email</a>
+          </BioYear>
+        </BioSection>
       </Section>
     </Container>
   </Layout>
